@@ -30,7 +30,7 @@ const Login = () => {
   });
 
   const onSubmit = (values: z.infer<typeof formSchema>) => {
-    router.push("/account/parent")
+    router.push("/account/parent/dashboard")
   };
   return (
     <div>
