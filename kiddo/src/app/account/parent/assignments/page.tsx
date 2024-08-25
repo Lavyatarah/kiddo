@@ -38,16 +38,16 @@ const StudentAssignmentsPage = () => {
 
     return (
         <main>
-            <Card>
+            <Card className="w-fit">
                 <CardHeader>
                     <CardTitle>
                         Assignments
                     </CardTitle>
                 </CardHeader>
-                <CardContent>
-                    <ul className="flex gap-10 w-full">
+                <CardContent className="w-fit">
+                    <ul className="flex flex-wrap gap-10 w-fit">
                         {assignments.map((assignment) => (
-                            <li className="w-full">
+                            <li>
                                 <AssignmentListCard assignment={assignment} />
                             </li>
                         ))}

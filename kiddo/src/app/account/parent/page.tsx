@@ -8,8 +8,8 @@ const StudentDashboard = () => {
             <Image
                 src="/images/IMG-20240825-WA0082.jpg"
                 alt="Dashboard Data"
-                width={500}
-                height={500}
+                width={1000}
+                height={1000}
                 unoptimized
             />
         </main>

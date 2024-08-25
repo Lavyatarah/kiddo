@@ -16,7 +16,7 @@ const AssignmentPage = ({ params }) => {
     const [assignmentDetails, setAssignmentDetails] = useState({});
 
     const [isSubmitting, setIsSubmitting] = useState(false);
-    
+
     useEffect(() => {
         const fetchAssignmentById = async (id: string) => {
             try {
@@ -133,6 +133,7 @@ const AssignmentPage = ({ params }) => {
                             width={500}
                             height={500}
                             unoptimized
+                            className="rounded-xl"
                         />
                     }
                 </CardContent>

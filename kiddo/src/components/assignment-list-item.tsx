@@ -28,7 +28,7 @@ const AssignmentListCard = ({ assignment }) => {
         fetchAssignmentSubject()
     }, [assignment])
     return (
-        <Card className="w-full" key={assignment._id}>
+        <Card className="w-[500px]" key={assignment._id}>
             <CardHeader>
                 <CardTitle className="text-lg font-bold">{assignment.name}</CardTitle>
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground">
@@ -48,7 +48,7 @@ const AssignmentListCard = ({ assignment }) => {
                     <ClockIcon className="h-4 w-4 text-muted-foreground" />
                     <span className="text-sm font-medium">Status:</span>
                     <Badge >
-
+                        Not Started
                     </Badge>
                 </div>
             </CardContent>
